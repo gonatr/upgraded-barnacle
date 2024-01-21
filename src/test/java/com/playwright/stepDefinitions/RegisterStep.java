@@ -58,7 +58,6 @@ public class RegisterStep {
     @And("User select hobbies {string}")
     public void userSelectHobbies(String text) {
         registerPage.selectHobbies(text.toLowerCase());
-
     }
 
     @And("User select language {string}")

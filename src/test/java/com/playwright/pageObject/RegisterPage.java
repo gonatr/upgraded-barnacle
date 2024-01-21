@@ -103,10 +103,8 @@ public class RegisterPage extends BaseTClass {
     }
 
     public void selectLanguage() {
-//        page.locator("//div[@id='msdd']").click();
         Locator a = page.locator("//div[@id='msdd']");
         a.click();
-
     }
 
     public void selectArab() {
